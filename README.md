@@ -1,35 +1,35 @@
-# 🌍 Global Mental Health Crisis Index 2026: Interactive Data Dashboard
+# 🌍 Global Mental Health Crisis Index 2026: An Interactive Data Story
 
-An interactive analytical dashboard built in Tableau utilizing the **Global Mental Health Crisis Index 2026** dataset from Kaggle. This project examines the global prevalence of depression and anxiety across 92 nations, mapping healthcare infrastructure capacity against real-world care gaps.
+This repository features an interactive, end-to-end Data Story built in Tableau utilizing the **Global Mental Health Crisis Index 2026** dataset. Instead of separate, disjointed views, this project is structured chronologically into a single, unified interactive presentation that guides the viewer from macro-level global trends down to micro-level modern lifestyle drivers.
 
-## 🔗 Live Interactive Dashboard
-👉 **[Click here to view and interact with the full dashboard on Tableau Public](PASTE_YOUR_TABLEAU_PUBLIC_URL_HERE)**
+## 🔗 Live Interactive Presentation
+👉 **[Click here to launch the full Interactive Data Story on Tableau Public](https://public.tableau.com/app/profile/vijay.nakirikanti/viz/WorldMentalHealthDashboard/Story1)**
 
 ---
 
-## 📊 Core Analytical Insights & Tabs
+## 📖 Storyboard Walkthrough
 
-### 1. Global Overview & Demographics
-*   **Key Question:** Which regions and income groups face the highest overall mental health burden?
-*   **Visualizations:** Choropleth Heatmap + Sorted Regional Bar Chart with mutual filtering.
+### Slide 1: Global Overview & Demographics
+*   **Objective:** Identify which regions and income groups face the highest overall mental health burden.
+*   **Visualizations:** Choropleth Map paired with a Sorted Regional Bar Chart utilizing mutual dashboard filtering.
   
-![Global Overview](global_overview.png)
+![Slide 1 Overview](story_slide1.png)
 
-### 2. Infrastructure & The Treatment Gap
-*   **Key Question:** Does higher healthcare spending and workforce volume minimize the untreated care gap?
-*   **Visualizations:** Logarithmic Scatter Plot (Wealth vs. Spend) + Dual-Axis Combo Chart (Psychiatrists vs. Treatment Gap %).
+### Slide 2: Infrastructure & The Treatment Gap
+*   **Objective:** Evaluate if financial healthcare investments and medical workforce scale effectively to minimize the untreated care gap.
+*   **Visualizations:** Logarithmic Wealth-vs-Spending Scatter Plot alongside a dual-axis Psychiatrist Count vs. Treatment Gap percentage combo chart.
 
-![Infrastructure Gap](infrastructure_gap.png)
+![Slide 2 Infrastructure](story_slide2.png)
 
-### 3. Modern Drivers & Post-Pandemic Shocks
-*   **Key Question:** Is there a measurable relationship between digital habits and clinical prevalence rates? How did the pandemic accelerate this burden?
-*   **Visualizations:** Variable-Sized Bubble Matrix featuring a dynamic Parameter Metric Toggle (Depression/Anxiety) + Nested Regional Post-COVID Surge Rankings.
+### Slide 3: Modern Drivers & Post-Pandemic Shocks
+*   **Objective:** Analyze the relationship between daily social media usage and clinical prevalence rates, alongside tracking the lingering impact of the COVID-19 pandemic surge.
+*   **Visualizations:** Variable-sized bubble matrix driven by a dynamic parameter dropdown (allowing on-the-fly toggling between Depression and Anxiety metrics) nested alongside regional post-pandemic escalation rankings.
 
-![Digital Drivers](digital_drivers.png)
+![Slide 3 Drivers](story_slide3.png)
 
 ---
 
-## 🛠️ Tech Stack & Skills Demonstrated
-*   **Data Visualization:** Tableau Desktop / Tableau Public
-*   **Advanced Tableau Concepts:** Parameters (Dynamic Axis Toggles), Dashboard Actions (Filter Toggles), Dual-Axis Synchronization, Logarithmic Scaling.
-*   **Data Storytelling & UX Layout:** Designed a multi-tab narrative tailored to prevent data overload and maintain visual hierarchy.
+## 🛠️ Data & Technical Skills Demonstrated
+*   **Advanced Tableau Architecture:** Designed a unified Tableau Story to control user flow and optimize data real estate.
+*   **Dynamic UI Controls:** Implemented custom Parameters for interactive axis-swapping and Dashboard Actions for synchronized visual filtering.
+*   **Socioeconomic Analytics:** Applied continuous variable transformations (Logarithmic scaling) to account for global economic disparities and data compression.
